@@ -1,0 +1,65 @@
+[
+  {
+    "id": "tem-1",
+    "surgeon": "Темирчевой В.В.",
+    "label": "Увеличение груди круглыми имплантами",
+    "before": "/images/results/tem-1-before.png",
+    "after": "/images/results/tem-1-after.png"
+  },
+  {
+    "id": "tem-2",
+    "surgeon": "Темирчевой В.В.",
+    "label": "Увеличение груди круглыми имплантами",
+    "before": "/images/results/tem-2-before.png",
+    "after": "/images/results/tem-2-after.png"
+  },
+  {
+    "id": "tem-3",
+    "surgeon": "Темирчевой В.В.",
+    "label": "Увеличение груди анатомическими имплантами",
+    "before": "/images/results/tem-3-before.png",
+    "after": "/images/results/tem-3-after.png"
+  },
+  {
+    "id": "tem-4",
+    "surgeon": "Темирчевой В.В.",
+    "label": "Увеличение груди. Импланты Mentor, круглые, гладкие 325 мл средняя + проекция. Рост 167 см. Обхват грудной клетки 69 см. Ширина железы 11,5 см. Доступ по нижнему краю ареолы.",
+    "before": "/images/results/tem-4-before.png",
+    "after": "/images/results/tem-4-after.png"
+  },
+  {
+    "id": "tem-5",
+    "surgeon": "Темирчевой В.В.",
+    "label": "Увеличение груди анатомическими имплантами, периареолярная подтяжка",
+    "before": "/images/results/tem-5-before.png",
+    "after": "/images/results/tem-5-after.png"
+  },
+  {
+    "id": "ter-1",
+    "surgeon": "Терентьевой О.А.",
+    "label": "Увеличение груди. Анатомические импланты, 255 мл средняя + проекция. Рост 162 см. Обхват под грудью 71 см. Ширина железы 11,5 см. Доступ по верхнему краю ареолы",
+    "before": "/images/results/ter-1-before.webp",
+    "after": "/images/results/ter-1-after.webp"
+  },
+  {
+    "id": "ter-2",
+    "surgeon": "Терентьевой О.А.",
+    "label": "Увеличение груди",
+    "before": "/images/results/ter-2-before.webp",
+    "after": "/images/results/ter-2-after.webp"
+  },
+  {
+    "id": "ter-3",
+    "surgeon": "Терентьевой О.А.",
+    "label": "Увеличение груди",
+    "before": "/images/results/ter-3-before.webp",
+    "after": "/images/results/ter-3-after.webp"
+  },
+  {
+    "id": "ter-4",
+    "surgeon": "Терентьевой О.А.",
+    "label": "Увеличение груди",
+    "before": "/images/results/ter-4-before.webp",
+    "after": "/images/results/ter-4-after.webp"
+  }
+]
