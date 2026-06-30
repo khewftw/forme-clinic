@@ -1,10 +1,10 @@
 import { CtaButton } from "@/components/ui/CtaButton";
-import { HeroBeforeAfterSlider } from "@/components/ui/HeroBeforeAfterSlider";
+import Image from "next/image";
 
 export function HeroSection() {
   return (
     <section className="mx-auto grid max-w-7xl gap-8 px-4 py-10 sm:px-6 md:py-16 lg:grid-cols-[0.95fr_1.05fr] lg:px-8">
-      <div className="flex flex-col justify-center">
+      <div className="order-2 flex flex-col justify-center lg:order-1">
         <p className="mb-5 text-xs font-semibold uppercase tracking-[0.32em] text-brand">
           Акция действует до 30 сентября 2026
         </p>
@@ -29,7 +29,16 @@ export function HeroSection() {
           необходима консультация специалиста.
         </p>
       </div>
-      <HeroBeforeAfterSlider />
+      <div className="order-1 relative overflow-hidden bg-soft shadow-[0_18px_50px_rgba(31,31,31,0.12)] sm:rounded-3xl lg:order-2">
+        <Image
+          src="/images/hero/banner.png"
+          alt="Маммопластика под ключ — 320 000 ₽"
+          width={1024}
+          height={1024}
+          priority
+          className="h-auto w-full object-cover"
+        />
+      </div>
     </section>
   );
 }

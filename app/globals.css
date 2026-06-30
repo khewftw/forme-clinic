@@ -167,3 +167,21 @@ summary {
 .btn-accent:active {
   transform: translateY(1px);
 }
+
+.brand-panel {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background-image: var(--brand-gradient);
+  box-shadow: var(--brand-glow);
+}
+
+.brand-panel::after {
+  content: "";
+  position: absolute;
+  inset: -20% -10% auto auto;
+  width: 55%;
+  height: 80%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.22) 0%, transparent 68%);
+  pointer-events: none;
+}

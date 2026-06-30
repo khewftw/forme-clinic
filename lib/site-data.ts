@@ -51,7 +51,14 @@ export const doctors = [
     image: "/forme/doctor-kuznetsova.webp",
     cta: "Записаться к Наталии",
   },
-];
+  {
+    name: "Егорова Татьяна Юрьевна",
+    role: "Пластический хирург",
+    experience: "Стаж работы: 6 лет",
+    image: "/forme/doctor-egorova.png",
+    cta: "Записаться к Татьяне",
+  },
+] as const;
 
 export const results = [
   {

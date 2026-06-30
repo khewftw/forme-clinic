@@ -52,25 +52,16 @@ export function PackageSection() {
           ))}
         </div>
 
-        <div className="relative mt-8 overflow-hidden border border-brand/20 bg-gradient-to-br from-[#16343b] via-ink to-[#1a2f35] p-6 md:p-9">
-          <div
-            className="pointer-events-none absolute -right-10 -top-10 size-40 rounded-full bg-brand/10 blur-2xl"
-            aria-hidden="true"
-          />
-          <div
-            className="pointer-events-none absolute -bottom-12 left-1/3 size-52 rounded-full bg-brand/5 blur-3xl"
-            aria-hidden="true"
-          />
-
+        <div className="brand-panel relative mt-8 rounded-[1.75rem] p-6 md:p-9">
           <div className="relative grid gap-8 lg:grid-cols-[0.32fr_0.68fr] lg:items-start">
             <div>
-              <div className="mb-5 inline-flex size-12 items-center justify-center rounded-full border border-amber-300/30 bg-amber-400/15 text-amber-200">
+              <div className="mb-5 inline-flex size-12 items-center justify-center rounded-full border border-white/30 bg-white/15 text-amber-100">
                 <AlertIcon />
               </div>
               <h3 className="text-2xl font-semibold tracking-[-0.04em] text-white sm:text-3xl">
                 Важно знать до записи
               </h3>
-              <p className="mt-3 text-sm leading-7 text-white/55">
+              <p className="mt-3 text-sm leading-7 text-white/80">
                 Уточните эти моменты на консультации, чтобы план операции совпал с ожиданиями.
               </p>
             </div>
@@ -79,12 +70,12 @@ export function PackageSection() {
               {packageNotes.map((note) => (
                 <li
                   key={note}
-                  className="flex gap-4 border border-white/10 bg-white/[0.04] p-4 backdrop-blur-sm transition hover:border-amber-300/25 hover:bg-white/[0.07]"
+                  className="flex gap-4 border border-white/20 bg-white/10 p-4 backdrop-blur-sm transition hover:border-white/35 hover:bg-white/15"
                 >
-                  <span className="mt-0.5 flex size-9 shrink-0 items-center justify-center rounded-full bg-amber-400/15 text-amber-200 ring-1 ring-amber-300/20">
+                  <span className="mt-0.5 flex size-9 shrink-0 items-center justify-center rounded-full bg-white/15 text-amber-100 ring-1 ring-white/25">
                     <AlertIcon />
                   </span>
-                  <p className="text-sm leading-7 text-white/85">{note}</p>
+                  <p className="text-sm leading-7 text-white">{note}</p>
                 </li>
               ))}
             </ul>

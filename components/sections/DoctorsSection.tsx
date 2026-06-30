@@ -8,9 +8,9 @@ export function DoctorsSection() {
       <div className="mx-auto max-w-7xl">
         <SectionTitle
           title="Ваши хирурги"
-          text="Три пластических хирурга ForMe, участвующие в программе маммопластики под ключ."
+          text="Пластические хирурги ForMe — участники программы маммопластики и специалисты клиники."
         />
-        <div className="grid gap-6 md:grid-cols-3">
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           {doctors.map((doctor) => (
             <article key={doctor.name} className="bg-white">
               <div className="relative aspect-[4/3] overflow-hidden bg-[#e5ebee]">
@@ -18,7 +18,7 @@ export function DoctorsSection() {
                   src={doctor.image}
                   alt={doctor.name}
                   fill
-                  sizes="(min-width: 768px) 33vw, 100vw"
+                  sizes="(min-width: 1024px) 25vw, (min-width: 768px) 50vw, 100vw"
                   className="object-contain object-bottom"
                 />
               </div>
