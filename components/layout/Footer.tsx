@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { footerColumns, mainSite, socialLinks } from "@/lib/site-data";
+import { footerColumns, legalRequisites, mainSite, socialLinks } from "@/lib/site-data";
 
 export function Footer() {
   return (
@@ -60,9 +60,14 @@ export function Footer() {
             ))}
           </div>
           <div className="grid gap-5 pt-8 text-xs leading-6 text-white/45 md:grid-cols-[0.55fr_0.45fr]">
-            <div>
+            <div className="space-y-2">
               <p>© 2026 Клиника пластической хирургии ForMe. Все права защищены.</p>
               <p>Информация и цены на сайте не являются публичной офертой.</p>
+              <p>
+                {legalRequisites.company} · ОГРН {legalRequisites.ogrn} · ИНН{" "}
+                {legalRequisites.inn} · КПП {legalRequisites.kpp}
+              </p>
+              <p>Юридический адрес: {legalRequisites.address}</p>
             </div>
             <div className="space-y-2 md:text-right">
               <a

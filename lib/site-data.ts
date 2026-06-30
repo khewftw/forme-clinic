@@ -1,5 +1,14 @@
 export const mainSite = "https://formeclinic.ru";
 
+export const legalRequisites = {
+  company: "ООО «ФОРМИ»",
+  ogrn: "1217800092586",
+  inn: "7801700487",
+  kpp: "780101001",
+  address: "199004, Санкт-Петербург, Средний пр-кт В.О., д. 2, литер В, помещение 1-Н",
+  director: "Максудов Хазар Исметович",
+};
+
 export const packageItems = [
   {
     title: "Импланты Mentor",
@@ -25,7 +34,7 @@ export const packageItems = [
 
 export const packageNotes = [
   "Акция действует при выборе имплантов Mentor из базовой линейки.",
-  "Операцию проводят три хирурга — участницы программы: Темирчева Валерия, Терентьева Ольга, Кузнецова Наталия.",
+  "Операцию проводят четыре хирурга — участницы программы: Темирчева Валерия, Терентьева Ольга, Кузнецова Наталия и Егорова Татьяна.",
   "Если вы хотите другой бренд имплантов или конкретного хирурга вне списка, стоимость рассчитают индивидуально.",
 ];
 
@@ -69,6 +78,21 @@ export const results = [
     after: "/images/results/tem-1-after.png",
   },
   {
+    id: "ter-1",
+    surgeon: "Терентьевой О.А.",
+    label:
+      "Увеличение груди. Анатомические импланты, 255 мл средняя + проекция. Рост 162 см. Обхват под грудью 71 см. Ширина железы 11,5 см. Доступ по верхнему краю ареолы",
+    before: "/images/results/ter-1-before.webp",
+    after: "/images/results/ter-1-after.webp",
+  },
+  {
+    id: "ego-1",
+    surgeon: "Егоровой Т.Ю.",
+    label: "Редукционная маммопластика",
+    before: "/forme/egorova-1-before.webp",
+    after: "/forme/egorova-1-after.webp",
+  },
+  {
     id: "tem-2",
     surgeon: "Темирчевой В.В.",
     label: "Увеличение груди круглыми имплантами",
@@ -76,11 +100,39 @@ export const results = [
     after: "/images/results/tem-2-after.png",
   },
   {
+    id: "ter-2",
+    surgeon: "Терентьевой О.А.",
+    label: "Увеличение груди. Импланты Mentor, 250 мл, круглые. Субмаммарный доступ.",
+    before: "/images/results/ter-2-before.webp",
+    after: "/images/results/ter-2-after.webp",
+  },
+  {
+    id: "ego-2",
+    surgeon: "Егоровой Т.Ю.",
+    label: "Редукционная маммопластика",
+    before: "/forme/egorova-2-before.webp",
+    after: "/forme/egorova-2-after.webp",
+  },
+  {
     id: "tem-3",
     surgeon: "Темирчевой В.В.",
     label: "Увеличение груди анатомическими имплантами",
     before: "/images/results/tem-3-before.png",
     after: "/images/results/tem-3-after.png",
+  },
+  {
+    id: "ter-3",
+    surgeon: "Терентьевой О.А.",
+    label: "Увеличение груди. Импланты Mentor, 300 мл, анатомические. Субмаммарный доступ.",
+    before: "/images/results/ter-3-before.webp",
+    after: "/images/results/ter-3-after.webp",
+  },
+  {
+    id: "ego-3",
+    surgeon: "Егоровой Т.Ю.",
+    label: "Подтяжка груди без имплантов",
+    before: "/forme/egorova-3-before.webp",
+    after: "/forme/egorova-3-after.webp",
   },
   {
     id: "tem-4",
@@ -91,6 +143,20 @@ export const results = [
     after: "/images/results/tem-4-after.png",
   },
   {
+    id: "ter-4",
+    surgeon: "Терентьевой О.А.",
+    label: "Увеличение груди. Импланты Mentor, 275 мл, круглые. Доступ по нижнему краю ареолы.",
+    before: "/images/results/ter-4-before.webp",
+    after: "/images/results/ter-4-after.webp",
+  },
+  {
+    id: "ego-4",
+    surgeon: "Егоровой Т.Ю.",
+    label: "Подтяжка груди без имплантов",
+    before: "/forme/egorova-4-before.webp",
+    after: "/forme/egorova-4-after.webp",
+  },
+  {
     id: "tem-5",
     surgeon: "Темирчевой В.В.",
     label: "Увеличение груди анатомическими имплантами, периареолярная подтяжка",
@@ -98,33 +164,32 @@ export const results = [
     after: "/images/results/tem-5-after.png",
   },
   {
-    id: "ter-1",
-    surgeon: "Терентьевой О.А.",
-    label:
-      "Увеличение груди. Анатомические импланты, 255 мл средняя + проекция. Рост 162 см. Обхват под грудью 71 см. Ширина железы 11,5 см. Доступ по верхнему краю ареолы",
-    before: "/images/results/ter-1-before.webp",
-    after: "/images/results/ter-1-after.webp",
+    id: "ego-5",
+    surgeon: "Егоровой Т.Ю.",
+    label: "Подтяжка груди без имплантов",
+    before: "/forme/egorova-5-before.webp",
+    after: "/forme/egorova-5-after.webp",
   },
   {
-    id: "ter-2",
-    surgeon: "Терентьевой О.А.",
-    label: "Увеличение груди. Импланты Mentor, 250 мл, круглые. Субмаммарный доступ.",
-    before: "/images/results/ter-2-before.webp",
-    after: "/images/results/ter-2-after.webp",
+    id: "ego-6",
+    surgeon: "Егоровой Т.Ю.",
+    label: "Подтяжка груди без имплантов",
+    before: "/forme/egorova-6-before.webp",
+    after: "/forme/egorova-6-after.webp",
   },
   {
-    id: "ter-3",
-    surgeon: "Терентьевой О.А.",
-    label: "Увеличение груди. Импланты Mentor, 300 мл, анатомические. Субмаммарный доступ.",
-    before: "/images/results/ter-3-before.webp",
-    after: "/images/results/ter-3-after.webp",
+    id: "ego-7",
+    surgeon: "Егоровой Т.Ю.",
+    label: "Периареолярная мастопексия на имплантах",
+    before: "/forme/egorova-7-before.webp",
+    after: "/forme/egorova-7-after.webp",
   },
   {
-    id: "ter-4",
-    surgeon: "Терентьевой О.А.",
-    label: "Увеличение груди. Импланты Mentor, 275 мл, круглые. Доступ по нижнему краю ареолы.",
-    before: "/images/results/ter-4-before.webp",
-    after: "/images/results/ter-4-after.webp",
+    id: "ego-8",
+    surgeon: "Егоровой Т.Ю.",
+    label: "Периареолярная мастопексия на имплантах",
+    before: "/forme/egorova-8-before.webp",
+    after: "/forme/egorova-8-after.webp",
   },
 ] as const;
 
@@ -132,10 +197,20 @@ export const resultFilters = [
   { id: "all", label: "Все работы" },
   { id: "Темирчевой В.В.", label: "Темирчева" },
   { id: "Терентьевой О.А.", label: "Терентьева" },
+  { id: "Егоровой Т.Ю.", label: "Егорова" },
 ] as const;
 
 export function formatResultCaption(surgeon: string, label: string) {
   const prefix = `Работа пластического хирурга ${surgeon}`;
+
+  const standaloneProcedures = [
+    "Редукционная маммопластика",
+    "Подтяжка груди без имплантов",
+    "Периареолярная мастопексия на имплантах",
+  ];
+  if (standaloneProcedures.includes(label)) {
+    return `${prefix}. ${label}.`;
+  }
 
   if (label.startsWith("Увеличение груди.")) {
     const details = label.replace(/^Увеличение груди\.\s*/, "").trim();
